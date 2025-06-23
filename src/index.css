@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Poppins', sans-serif;
+  @apply antialiased text-neutral-800 bg-neutral-50;
+}
+
+/* Example of a custom utility class if needed from UserDashboard */
+.form-input {
+  @apply w-full p-3 border border-neutral-300 rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-red-500 transition-colors bg-white placeholder-neutral-400;
+}

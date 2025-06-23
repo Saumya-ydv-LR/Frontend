@@ -1,0 +1,5 @@
+{
+  "name": "Frontend",
+  "description": "A modern web application for ordering non-veg food items, featuring user and admin dashboards, and a dynamic menu.",
+  "requestFramePermissions": []
+}
